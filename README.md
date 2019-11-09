@@ -99,4 +99,8 @@ Was hier noch fehlt ist eine automatische Abfrage auf welcher Adresse der Gamepa
 
 5) GoTo-Steuerung des Teleskopes bzw. Anbindung an die Software Stellarium. Stellarium ist unter https://stellarium.org/ im Internet fuer Linux, Mac und WinDoof kostenlos (fuer private Nutzung) als OpenSource zu erhalten.
 
-HINWEIS: Die genannten Links zu Materialquellen sind keine Reklame fuer die Laeden, sondern sollen nur als Link zu einer von vielen moeglichen Bezugsquellen gesehen werden. Es gibt sicherlich auch noch bessere, preisguenstigere oder anderweitig bessere Bezugsquellen. Deswegen versuchen wir in diesem Projekt auch immer, so weit moeglich, immer so viele verschiedene Bezugsquellen wie moeglich anzugeben!
+HINWEIS: 
+
+1) Die genannten Links zu Materialquellen sind keine Reklame fuer die Laeden, sondern sollen nur als Link zu einer von vielen moeglichen Bezugsquellen gesehen werden. Es gibt sicherlich auch noch bessere, preisguenstigere oder anderweitig bessere Bezugsquellen. Deswegen versuchen wir in diesem Projekt auch immer, so weit moeglich, immer so viele verschiedene Bezugsquellen wie moeglich anzugeben!
+
+2) Natuerlich werden in diesem Projekt viele Dinge vorgestellt, die vorher auch schon im Internet veroeffentlich wurden. Wir werden versuchen im Laufe des Projektes die Quellen ordentlich anzugeben. Im Moment befindet sich das Projekt noch im Entwicklungsstatus.
