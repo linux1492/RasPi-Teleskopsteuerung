@@ -69,6 +69,7 @@ Von nun an laesst sich dieser Python-Code einfach mit
 ./joy.py 
 
 ausfuehren. Wenn Du Pech hast erhaelltst Du aber folgende Ausgabe:
+
 Traceback (most recent call last):
   File "./joy.py", line 7, in <module>
     gamepad = InputDevice('/dev/input/event9')
