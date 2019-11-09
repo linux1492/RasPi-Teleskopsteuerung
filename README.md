@@ -58,9 +58,15 @@ time 1573314302.69    type 4 (EV_MSC), code 4    (MSC_SCAN), value 589828
 time 1573314302.69    type 1 (EV_KEY), code 291  (BTN_TOP), value 0
 time 1573314302.69    --------- SYN_REPORT --------
 
-Beenden kann man diesen Test mit STR-C.
+Beenden kann man diesen Test mit STR-C. Moechtest Du eine kurze Liste Deiner USB-Geraete erhalten geht das einfach mit der folgenden Befehlszeile:
 
-Gut nun ist der Gamepad-Treiber installiert und das Pythonprogramm "joy.py" kann ausprobiert werden. Obwohl man immer alle Python-Scripte aus Python aufrufen kann, ist es schoener diese ausfuerbar zu machen und sich viel Tipperei zu sparen. Deswegen muss man zuerst die folgende Befehlszeile einmalig ausfuehren:
+ls /dev/input/
+
+Die Ausgabe ist relativ kurz. Meistens ist das Gamepad das letzte "event", wenn es eingesteckt wurde als der RasPi schon angeschaltet war. Dann sieht das ganze so aus:
+
+by-id  by-path  event0  event1  event2  event3  event4  event5  event6  event7  event8  js0  mice  mouse0  mouse1 
+
+Gut, nun ist der Gamepad-Treiber installiert und das Pythonprogramm "joy.py" kann ausprobiert werden. Obwohl man immer alle Python-Scripte aus Python aufrufen kann, ist es schoener diese ausfuerbar zu machen und sich viel Tipperei zu sparen. Deswegen muss man zuerst die folgende Befehlszeile einmalig ausfuehren:
 
 chmod u+x joy.py
 
