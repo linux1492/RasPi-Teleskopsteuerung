@@ -100,16 +100,27 @@ Das gibt uns die benoetigten Kodes fuer unsere spaeteren Python-Skripte an.
 Was hier noch fehlt ist eine automatische Abfrage auf welcher Adresse der Gamepad liegt. Mit dem Script "event_test.py" haben wir hier schon mal eine Teilloesung, aber leider wird der Gamepad nicht gefunden, obwohl er gelistet ist. Das Ergebnis sieht so aus:
 
 ./event_test.py
-/dev/input/event8 usb gamepad           
+
+/dev/input/event8 usb gamepad   
+
 /dev/input/event7 HAILUCK CO.,LTD USB KEYBOARD Wireless Radio Control
+
 /dev/input/event6 HAILUCK CO.,LTD USB KEYBOARD Consumer Control
+
 /dev/input/event5 HAILUCK CO.,LTD USB KEYBOARD System Control
+
 /dev/input/event4 HAILUCK CO.,LTD USB KEYBOARD Mouse
+
 /dev/input/event3 HAILUCK CO.,LTD USB KEYBOARD
+
 /dev/input/event2 USB OPTICAL MOUSE  Consumer Control
+
 /dev/input/event1 USB OPTICAL MOUSE  Keyboard
+
 /dev/input/event0 USB OPTICAL MOUSE 
+
 nothing
+
 
 Die letzte Zeile mit "nothing" zeigt an, dass die Adresse des Gamepads nicht korrekt uebergeben worden ist ):
 
