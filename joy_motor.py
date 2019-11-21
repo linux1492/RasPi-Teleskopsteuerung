@@ -17,10 +17,24 @@
 #============================================#
 
 #import evdev
-from evdev import InputDevice, categorize, ecodes
+from evdev import InputDevice, categorize, ecodes, list_devices
 import RPi.GPIO as GPIO
 import time
+import string
 from time import sleep
+
+devices = map(InputDevice, list_devices())
+
+eventX="nothing name"
+nameX ="usb gamepad           "
+
+for dev in devices:
+     if dev.name == nameX:
+        eventX=dev.fn
+#        print dev.name
+	print('Controller found and activated. Press any controler button to start. Press SELECT to stop the program.')
+#        print('Your control device is called ',dev.name,' and uses the device port ',dev.fn,'.')
+#print eventX
 
 DIR = 3       # Direction GPIO Pin
 STEP = 4    # Step GPIO Pin
@@ -44,10 +58,11 @@ step_count = SPR
 delay = .0208
 
 #cree un objet gamepad | creates object gamepad
-gamepad = InputDevice('/dev/input/event9')
+#gamepad = InputDevice('/dev/input/event9')
+gamepad = InputDevice(eventX)
 
 #affiche la liste des device connectes | prints out device info at start
-print(gamepad)
+#print(gamepad)
 
 aBtn = 289
 bBtn = 290
